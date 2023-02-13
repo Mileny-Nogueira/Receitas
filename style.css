@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Fira';
+    src: url(fonte/FiraCode-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'Fira';
+    background-color: rgb(108,25,255);
+}
+
+main{
+    margin: 10px;
+    padding: 10px;
+    border: rgb(0,179,215) solid 2px;
+    border-radius: 20px;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0,179,215);
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(70, 64, 64);;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(56,7,214);
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+h4{
+    font-size: 14px;
+    color: rgb(22, 2, 87);
+    text-align: center;
+    margin: 20px 0;
+}
+ul, ol{
+    padding: 0 25px;
+}
+li{
+    color: rgb(41, 37, 37);
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+img{
+    border-radius: 50%;
+    border: rgb(56,7,214) solid 2px;
+    margin: 0 20px;
+}
+
+#personalidade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
